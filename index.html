@@ -10,7 +10,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" type="image/x-icon" href="/images/favicon.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/form.css" />
 	</head>
+		
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -169,13 +171,22 @@
 							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
 							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
 							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							
+							<form action="https://formspree.io/f/mknazzkl" method="POST">
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+								<input type="text" name="Name" placeholder="Full Name" required>
+								<input type="email" name="Email" placeholder="Email Address" required>
+								<input class="tel" type="phone" name="phone" placeholder="Phone No." required>
+								<select name="Continent">
+									<option >Africa</option>
+									<option >Asia</option>
+									<option >Europe</option>
+									<option >Australia</option>
+									<option >North America</option>
+									<option >South America</option>
+								</select>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea id="message" name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
@@ -187,6 +198,14 @@
 					</section>
 
 			</div>
+
+			
+			
+
+			
+
+			
+			    
 
 		<!-- Footer -->
 			<div id="footer">
