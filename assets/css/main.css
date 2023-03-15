@@ -132,7 +132,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
-			margin-top: -40px;
+			margin-top: -20px;
 			margin-left: -0px;
 			font-weight: bold;
 		}
@@ -254,7 +254,7 @@ input, select, textarea {
 			}
 			h2.alt {
 				font-weight: bolder;
-				margin-top: -25px;
+				margin-top: -20px;
 				margin-left: -0px;
 			}
 
