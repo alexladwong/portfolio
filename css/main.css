@@ -132,8 +132,9 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
-			margin-top: -120px;
+			margin-top: -40px;
 			margin-left: -0px;
+			font-weight: bold;
 		}
 
 			h2.alt strong {
@@ -252,8 +253,8 @@ input, select, textarea {
 				
 			}
 			h2.alt {
-				
-				margin-top: -95px;
+				font-weight: bolder;
+				margin-top: -25px;
 				margin-left: -0px;
 			}
 
@@ -265,9 +266,10 @@ input, select, textarea {
 				width: 100%;
 			}
 			h2.alt {
-				
-				margin-top: -50px;
+				font-size: 2em;
+				margin-top: 20px;
 				margin-left: -0px;
+				font-weight: bold;
 			}
 
 		}
