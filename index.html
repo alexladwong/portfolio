@@ -8,9 +8,25 @@
 		<title>ladwongalexdevcyber.com</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/form.css" />
+<style>
+
+</style>
+		<script> 
+			`use strict`;
+			function refreshTime() {
+			  const timeDisplay = document.getElementById("time");
+			  const dateString = new Date().toLocaleString();
+			  const formattedString = dateString.replace(", ", " - ");
+			  timeDisplay.textContent = formattedString;
+			}
+			  setInterval(refreshTime, 1000);
+			
+			</script>
+			<h1 class="clock">Time Check: <span id="time"> </span></h1>
+
 	</head>
 		
 	<body class="is-preload">
