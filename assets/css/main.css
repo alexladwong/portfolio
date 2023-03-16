@@ -32,6 +32,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.clock {
+	background-color:#3e2420;
+      padding-left: 600px;
+	color:#ffffff;
+	padding-top: 10px;
+	font-weight: bold;
+}
 
 ol, ul {
 	list-style: none;
@@ -131,14 +138,14 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
-			margin-top: -20px;
+			color: #ffffff;
+			margin-top: -40px;
 			margin-left: -0px;
 			font-weight: bold;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #ada9a9a9;
 			}
 
 	h3 {
@@ -234,6 +241,13 @@ input, select, textarea {
 			.container {
 				width: 960px;
 			}
+			.clock {
+				background-color:#3e2420;
+				padding-left: 450px;
+				color:#ffffff;
+				padding-top: 10px;
+				font-weight: bold;
+			}
 
 		}
 
@@ -254,8 +268,15 @@ input, select, textarea {
 			}
 			h2.alt {
 				font-weight: bolder;
-				margin-top: -20px;
+				margin-top: -25px;
 				margin-left: -0px;
+			}
+			.clock {
+				background-color:#3e2420;
+				padding-left: 300px;
+				color:#ffffff;
+				padding-top: 10px;
+				font-weight: bold;
 			}
 
 		}
@@ -269,6 +290,13 @@ input, select, textarea {
 				font-size: 2em;
 				margin-top: 20px;
 				margin-left: -0px;
+				font-weight: bold;
+			}
+			.clock {
+				background-color:#3e2420;
+				padding-left: 200px;
+				color:#ffffff;
+				padding-top: 10px;
 				font-weight: bold;
 			}
 
